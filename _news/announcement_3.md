@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I won the Best Junior Presenter Award at the 44th Benelux Meeting on Systems and Control, Egmond aan Zee, Netherlands.
+I won the <a href='https://disc.tudelft.nl/newsletter/disc-newsletter-april-may-2025/#benelux-meeting-2025'> Best Junior Presenter Award </a> at the 44th Benelux Meeting on Systems and Control, Egmond aan Zee, Netherlands.
