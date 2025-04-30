@@ -448,8 +448,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-i-won-the-best-junior-presenter-award-at-the-44th-benelux-meeting-on-systems-and-control-egmond-aan-zee-netherlands",
+          title: 'I won the Best Junior Presenter Award at the 44th Benelux Meeting on...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
