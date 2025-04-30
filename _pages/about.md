@@ -27,9 +27,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Ph.D. student at the Electrical Engineering department of KU Leuven, working in the STADIUS division under the supervision of <a href='https://scholar.google.com/citations?user=e1jfDwMAAAAJ'> Prof. Rodolphe Sepulchre </a> and co-supervision of <a href='https://scholar.google.com/citations?user=CxaDsg8AAAAJ&hl=en'> Prof. Timothy O'Leary <\a>.
+I am a Ph.D. student at the Electrical Engineering department of KU Leuven, working in the STADIUS division under the supervision of <a href='https://scholar.google.com/citations?user=e1jfDwMAAAAJ'> Prof. Rodolphe Sepulchre </a> and co-supervision of <a href='https://scholar.google.com/citations?user=CxaDsg8AAAAJ&hl=en'> Prof. Timothy O'Leary </a>
 
-My Ph.D. research is focused on the development of an operator-theoretic framework to simulate and analyze spiking neural networks. This problem is central to the development of large-scale neuromorphic systems, computational neuroscience and 
+My Ph.D. research is focused on the development of an operator-theoretic framework to simulate and analyze spiking neural networks. This problem is central to the development of large-scale neuromorphic systems and the advancement of computational neuroscience.
 
 
 CURRENT RESEARCH
