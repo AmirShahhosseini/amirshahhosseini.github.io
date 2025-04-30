@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.kuleuven.be/wieiswie/nl/person/00161754'>KU Leuven</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://www.kuleuven.be/wieiswie/nl/person/00161754'>KU Leuven</a>
 
 profile:
   align: right
