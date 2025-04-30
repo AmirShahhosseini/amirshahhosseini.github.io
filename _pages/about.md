@@ -29,14 +29,15 @@ latest_posts:
 
 I am a Ph.D. student at the Electrical Engineering department of KU Leuven, working in the STADIUS division under the supervision of <a href='https://scholar.google.com/citations?user=e1jfDwMAAAAJ'> Prof. Rodolphe Sepulchre </a> and co-supervision of <a href='https://scholar.google.com/citations?user=CxaDsg8AAAAJ&hl=en'> Prof. Timothy O'Leary </a>
 
-My Ph.D. research is focused on the development of an operator-theoretic framework to simulate and analyze spiking neural networks. This problem is central to the development of large-scale neuromorphic systems and the advancement of computational neuroscience.
+My research tackles the challenge of modeling and simulating spiking neural networks through an operator-theoretic lens. This problem is central to the development of large-scale neuromorphic systems and the advancement of computational neuroscience. A core aim of the project is to reconcile computational tractability with physical interpretability. To that end, we draw on a broad range of disciplines: from energy-based modeling and differential geometry in representing neuromorphic dynamics, to convex splitting methods for solving the resulting systems.
+
+I'm broadly interested in nonlinear dynamical systems, numerical methods and optimization, neuroscience, and complex systems. My previous research projects include a numerical framework for the simulation and control of fractional-order dynamical systems (B.Sc. degree research project), a hybrid symbolic-numeric computational method for the simulation of piecewise linear nonlinear models, and a modern data-driven method for obtaining effective Poincaré sections for dynamical systems (M.Sc. degree research projects).
+
+Beyond academia, I'm interested in philosophy, finance, classical music, and traveling. 
 
 
-CURRENT RESEARCH
 
-BACKGROUND
 
-INTERESTS AND GOALS?
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
