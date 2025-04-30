@@ -35,6 +35,3 @@ I'm broadly interested in <b>nonlinear dynamical systems</b>, <b>numerical metho
 
 Beyond academia, I'm interested in philosophy, finance, classical music, and traveling. 
 
-<b>This text is bold</b>
-
-
