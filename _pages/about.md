@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD student at the Electrical Engineering department of KU Leuven, working in the STADIUS division under the supervision of Prof. Rodolphe Sepulchre and co-supervision of Prof. Timothy O'Leary.
+I am a PhD student at the Electrical Engineering department of KU Leuven, working in the STADIUS division under the supervision of <a href='https://scholar.google.com/citations?user=e1jfDwMAAAAJ'> Prof. Rodolphe Sepulchre </a> and co-supervision of Prof. Timothy O'Leary.
 
 CURRENT RESEARCH
 
