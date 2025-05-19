@@ -4,7 +4,7 @@
     "label": "Ph.D. Researcher",
     "image": "",
     "email": "amir.shahhosseini@kuleuven.be",
-    "phone": "(912) 123-4567",
+    "phone": "",
     "url": "",
     "summary": "",
     "location": {
@@ -30,20 +30,10 @@
       "startDate": "2023-03",
       "endDate": "Present",
       "summary": "Studying Neuromorphic Dynamics from a System-Theoretic Perspective",
-      "highlights": ["Relativity"]
+      "highlights": ["Spiking Dynamics"]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
+  "volunteer": [""]
   ],
   "education": [
     {
