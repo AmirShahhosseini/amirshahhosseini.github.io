@@ -440,8 +440,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-i-presented-our-research-on-splitting-algorithms-for-nonlinear-rlc-circuits-at-the-26th-international-symposium-on-mathematical-theory-of-networks-and-systems-cambridge-uk",
+          title: 'I presented our research on “Splitting algorithms for nonlinear RLC circuits” at the...',
           description: "",
           section: "News",},{id: "news-i-presented-our-paper-titled-an-operator-theoretic-framework-to-simulate-neuromorphic-circuits-at-the-ieee-63rd-conference-on-decision-and-control-cdc-milan-italy",
           title: 'I presented our paper titled “An operator-theoretic framework to simulate neuromorphic circuits” at...',
