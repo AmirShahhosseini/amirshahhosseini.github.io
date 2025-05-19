@@ -443,12 +443,10 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-i-presented-our-paper-titled-an-operator-theoretic-framework-to-simulate-neuromorphic-circuits-at-the-ieee-63rd-conference-on-decision-and-control-cdc-milan-italy",
+          title: 'I presented our paper titled “An operator-theoretic framework to simulate neuromorphic circuits” at...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-i-won-the-best-junior-presenter-award-at-the-44th-benelux-meeting-on-systems-and-control-egmond-aan-zee-netherlands",
+          section: "News",},{id: "news-i-won-the-best-junior-presenter-award-at-the-44th-benelux-meeting-on-systems-and-control-egmond-aan-zee-netherlands",
           title: 'I won the Best Junior Presenter Award at the 44th Benelux Meeting on...',
           description: "",
           section: "News",},{id: "projects-project-1",
