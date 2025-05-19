@@ -454,9 +454,9 @@ ninja.data = [{
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-spiking-dynamical-systems",
-          title: 'Spiking Dynamical Systems',
-          description: "A novel method toward data-driven equation-agnostic derivation of Poincare sections for high-dimensional dynamical systems",
+            },},{id: "projects-poincaré-maps",
+          title: 'Poincaré Maps',
+          description: "A novel method toward data-driven equation-agnostic derivation of Poincaré sections for high-dimensional dynamical systems",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
