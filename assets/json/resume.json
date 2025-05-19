@@ -4,8 +4,6 @@
     "label": "Ph.D. Researcher",
     "image": "",
     "email": "amir.shahhosseini@kuleuven.be",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
   },
   "work": [
     {
@@ -25,9 +23,7 @@
       "area": "Electrical Engineering",
       "studyType": "Ph.D.",
       "startDate": "2023-03",
-      "endDate": "Present",
-      "score": "10",
-    }
+      "endDate": "Present"}
     {
       "institution": "Sharif University of Technology, Tehran, Iran",
       "location": "Tehran, Iran",
@@ -35,10 +31,7 @@
       "studyType": "M.Sc.",
       "startDate": "2019-09",
       "endDate": "2022-02",
-      "score": "10",
-      "courses": ["Graduated with a GPA of 4/4"]
-
-    }
+      "courses": ["Graduated with a GPA of 4/4"]}
     {
       "institution": "K.N.T.U, Tehran, Iran",
       "location": "Tehran, Iran",
@@ -46,7 +39,6 @@
       "studyType": "B.Sc.",
       "startDate": "2015-09",
       "endDate": "2019-09",
-      "score": "10",
       "courses": ["Graduated with a GPA of 4/4, ranking 1 out of 117"]
     }
   ],
