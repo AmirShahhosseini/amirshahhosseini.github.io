@@ -70,11 +70,18 @@
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Best Junior Presenter Award",
+      "date": "2025-03-20",
+      "awarder": "Dutch Institute for Systems and Control",
+      "url": "https://disc.tudelft.nl/newsletter/disc-newsletter-april-may-2025/#benelux-meeting-2025",
+      "summary": "Awarded for my talk on Simulating Neuromorphic Systems at Scale"
+    },
+    {
+      "title": "Harding Distinguished Postgraduate Scholarship",
+      "date": "2022-09",
+      "awarder": "Cambridge Trust, University of Cambridge",
+      "url": "https://www.hardingscholars.fund.cam.ac.uk/file/shahhosseiniamirjpg",
+      "summary": "Selective Merit-based Scholarship"
     }
   ],
   "certificates": [
