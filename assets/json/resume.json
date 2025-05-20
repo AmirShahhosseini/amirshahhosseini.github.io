@@ -74,7 +74,7 @@
       "date": "2025-03-20",
       "awarder": "Dutch Institute for Systems and Control",
       "url": "https://disc.tudelft.nl/newsletter/disc-newsletter-april-may-2025/#benelux-meeting-2025",
-      "summary": "Awarded for my talk on Simulating Neuromorphic Systems at Scale"
+      "summary": "Awarded for my talk at the 44th Benelux meeting on Systems and Control"
     },
     {
       "title": "Harding Distinguished Postgraduate Scholarship",
@@ -89,6 +89,20 @@
       "awarder": "Cambridge Trust, University of Cambridge",
       "url": "https://www.cambridgetrust.org/scholarships/cambridge-international-scholarship",
       "summary": "Merit-based Scholarship"
+    },
+    {
+      "title": "Departmental Fellowship",
+      "date": "2022-09",
+      "awarder": "Department of Engineering, University of Cambridge",
+      "url": "",
+      "summary": "Merit-based Scholarship"
+    },
+    {
+      "title": "Runner-up for the Best Student Paper Award",
+      "date": "2021-08",
+      "awarder": "ASME IDETC-MSNDC",
+      "url": "https://mae.osu.edu/news/2021/10/ndvl-team-researchers-wins-2nd-place-paper-2021-asme-msndc-conference",
+      "summary": "For my paper on PWL Systems"
     }
   ],
   "certificates": [
