@@ -103,6 +103,13 @@
       "awarder": "ASME IDETC-MSNDC",
       "url": "https://mae.osu.edu/news/2021/10/ndvl-team-researchers-wins-2nd-place-paper-2021-asme-msndc-conference",
       "summary": "For my paper on PWL Systems"
+    },
+    {
+      "title": "Departmental Fellowship",
+      "date": "2020-09",
+      "awarder": "Department of Engineering, Ohio State University",
+      "url": "",
+      "summary": "Merit-based Scholarship"
     }
   ],
   "skills": [
@@ -130,15 +137,30 @@
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Dynamical Systems",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Nonlinear Dynamics",
+        "Neuromorphic Systems",
+        "Numerical Methods for High-Dimensional Systems"
+      ]
+    },
+    {
+      "name": "Optimization",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Large-Scale Optimization Methods",
+        "Numerical Linear Algebra",
+        "First-Order Splitting Methods"
+      ]
+    },
+    {
+      "name": "Neuroscience",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Computational Neuroscience",
+        "Spiking Neural Networks",
+        "Geometric Deep Learning*"
       ]
     }
   ]
