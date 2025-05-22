@@ -459,11 +459,6 @@ ninja.data = [{
           description: "A novel method toward data-driven and equation-agnostic derivation of Poincaré sections for high-dimensional dynamical systems",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
             },},{id: "projects-simulation-of-piecewise-linear-systems",
           title: 'Simulation of Piecewise Linear Systems',
           description: "A Hybrid Symbolic-Numeric Computational tool was developed",
@@ -474,11 +469,6 @@ ninja.data = [{
           description: "Numerical Simulation and Control of Frictional-order Dynamics",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
             },},{
         id: 'social-email',
         title: 'email',
