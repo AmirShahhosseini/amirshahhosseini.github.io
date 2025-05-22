@@ -1,81 +1,20 @@
 ---
 layout: page
-title: project 8
-description: an other project with a background image and giscus comments
-img: assets/img/9.jpg
+title: Fractional-Order Dynamics
+description: Numerical Simulation and Control of Frictional-order Dynamics
+img: assets/img/Frac_Main.jpg
 importance: 2
 category: work
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This paper presents a novel approach for modeling and controlling multi-input multi-output (MIMO) fractional-order dynamic systems, which are increasingly used to describe complex physical behaviors more accurately than traditional integer-order models. We develop an analytical, discrete-time solution to systems of non-commensurate fractional-order differential equations using the Grünwald–Letnikov definition. This solution is specifically tailored for implementation on digital platforms by enabling finite-memory truncation, overcoming major limitations of continuous-time methods such as high computational cost and impractical memory demands. The approach provides clear truncation standards, making it practical for engineers without requiring deep expertise in fractional calculus.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Building on this foundation, the paper introduces an Enhanced Sliding Mode Control (ESMC) strategy that operates in discrete-time and effectively handles parameter uncertainties and external disturbances without resorting to fractional-order operators in the control law. The control scheme avoids chattering and is computationally efficient, making it suitable for real-world applications. We propose a novel method for solving the associated linear matrix inequalities and demonstrate the control strategy on a benchmark MIMO fractional-order system. The results showcase ESMC’s robustness and precision, providing a promising framework for controlling complex fractional systems using standard digital controllers. Further, we explore fractional-order actuation systems and how they can be connected to mechanical systems. The Model-Predictive Control (MPC) control of input-saturated fractional dynamics is also explored, and promising results are shown.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+[1] Homaeinezhad, M. R., & Shahhosseini, A. (2020). Fractional order actuation systems: Theoretical foundation and application in feedback control of mechanical systems. Applied Mathematical Modelling, 87, 625-639.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+[2] Homaeinezhad, M. R., & Shahhosseini, A. (2020). High-performance modeling and discrete-time sliding mode control of uncertain non-commensurate linear time invariant MIMO fractional order dynamic systems. Communications in Nonlinear Science and Numerical Simulation, 84, 105200.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+[3] Homaeinezhad, M. R., & Shahhosseini, A. (2021). Parameter-disturbance-robust model predictive control of input-saturated MIMO fractional systems. International Journal of Dynamics and Control, 9(3), 1117-1131.
