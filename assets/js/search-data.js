@@ -479,9 +479,9 @@ ninja.data = [{
           description: "a project with no image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+            },},{id: "projects-simulation-of-piecewise-linear-systems",
+          title: 'Simulation of Piecewise Linear Systems',
+          description: "A Hybrid Symbolic-Numeric Computational tool was developed",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
             },},{id: "projects-project-8",
