@@ -9,7 +9,7 @@ related_publications: true
 ---
 
 
-This paper presents a computational framework for analyzing mechanical systems that exhibit complex nonlinear behavior due to friction and intermittent contact, features common in real-world assemblies such as cracked structures, loose joints, and frictional interfaces. These systems are modeled using a class known as piecewise linear systems with discontinuous force elements (PWLDFE), capable of reproducing a rich variety of motions, including periodic, chaotic, and the rarely observed weakly chaotic dynamics. The proposed modeling formalism leverages the theory of differential inclusions to rigorously handle these discontinuities, offering both physical insight and mathematical generality.
+This project presents a computational framework for analyzing mechanical systems that exhibit complex nonlinear behavior due to friction and intermittent contact, features common in real-world assemblies such as cracked structures, loose joints, and frictional interfaces. These systems are modeled using a class known as piecewise linear systems with discontinuous force elements (PWLDFE), capable of reproducing a rich variety of motions, including periodic, chaotic, and the rarely observed weakly chaotic dynamics. The proposed modeling formalism leverages the theory of differential inclusions to rigorously handle these discontinuities, offering both physical insight and mathematical generality.
 
 
 
