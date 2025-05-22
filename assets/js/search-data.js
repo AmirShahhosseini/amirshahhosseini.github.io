@@ -449,9 +449,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-won-the-best-junior-presenter-award-at-the-44th-benelux-meeting-on-systems-and-control-egmond-aan-zee-netherlands",
           title: 'I won the Best Junior Presenter Award at the 44th Benelux Meeting on...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-spiking-dynamical-systems",
+          title: 'Spiking Dynamical Systems',
+          description: "An Operator-Theoretic Approach Toward Simulation and Analysis [Ongoing]",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-poincaré-maps",
