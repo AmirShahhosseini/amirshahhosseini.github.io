@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://en.wikipedia.org/wiki/KU_Leuven'>KU Leuven</a>
 
