@@ -2,7 +2,7 @@
 layout: page
 title: Poincaré Maps
 description: A novel method toward data-driven and equation-agnostic derivation of Poincaré sections for high-dimensional dynamical systems
-img: assets/img/3.jpg
+img: assets/img/Main_Poincare.png
 importance: 2
 category: work
 giscus_comments: true
@@ -25,4 +25,4 @@ This paper presents a systematic and generalizable method we developed for const
     Effective Poincaré maps are found for the famous Lorenz attractor, and its Poincaré maps are obtained, clearly indicating chaotic motion.
 </div>
 
-What reinforces the contribution of this paper is the use of basic tools—Euclidean geometry, clustering algorithms, and optimization—to tackle a long-standing practical challenge in nonlinear analysis. We validated the approach with several canonical examples, from the Lorenz and Rössler attractors to a 5D hyperchaotic system, showing that the method not only captures complex behaviors but does so without manual tuning, using the most basic algorithms (e.g., k-means). While the underlying mathematics is kept accessible, the approach reveals nuanced structure in the dynamics that conventional techniques might miss. It’s a framework intended to bridge methodological rigor with practical insight, and to support researchers studying systems where chaos, periodicity, or strange attractors are central.
+What reinforces the contribution of this paper is the use of basic tools—Euclidean geometry, clustering algorithms, and optimization—to tackle a long-standing practical challenge in nonlinear analysis. We validated the approach with several canonical examples, from the Lorenz and Rössler attractors to a 5D hyperchaotic system, showing that the method not only captures complex behaviors but does so without manual tuning, using the most basic algorithms (e.g., k-means). While the underlying mathematics is kept accessible, the approach reveals nuanced structure in the dynamics that conventional techniques might miss. It’s a framework intended to bridge methodological rigor with practical insight, and to support researchers studying systems where chaos, periodicity, or strange attractors are central. With the methodology of this paper, the first-ever higher-dimensional Poincaré maps were obtained, elevating Poincaré maps from a purely graphical tool into a statistical one.
