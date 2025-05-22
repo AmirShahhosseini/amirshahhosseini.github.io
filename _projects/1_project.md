@@ -1,81 +1,28 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Spiking Dynamical Systems
+description: An Operator-Theoretic Approach Toward Simulation and Analysis [Ongoing]
+img: assets/img/main_OT.png
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+The human brain offers a computational paradigm distinct from both digital and quantum. It can be orders of magnitude more energy-efficient than digital architectures and is better poised to handle the noisy, ill-conditioned inputs typical of biological sensing. These advantages have motivated the development of neuromorphic computing—a field that seeks to replicate the brain’s computational principles. Despite its potential, neuromorphic computing has yet to deliver the transformative breakthroughs it envisioned. One major bottleneck is the prohibitive computational cost of simulating and analyzing spiking neurons. This makes the study and design of large-scale spiking networks, which are essential in capturing many interesting phenomena and behaviors, a resource-intensive task, as evidenced by the billion-euro Human Brain Project.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The most common method for simulating spiking dynamics is numerical integration algorithms. Nevertheless, this class of algorithms does not provide an adequate simulation and analysis framework for the design of large-scale neuromorphic systems. These algorithms are not scalable, do not exploit the event-based structure of the behavior, and lack efficient tools for variability analysis—an essential component of any robust design framework. In response to these limitations, we propose a departure from state-space representation and incremental numerical integration methods in favor of an operator-theoretic representational language and solver framework. This approach lays the foundation for a more principled, scalable, and efficient framework for simulating and analyzing neuromorphic systems.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+In this new framework, the input-output behavior of neuromorphic systems is captured using an operator (e.g., a nonlinear mapping) defined on Hilbert space. Thus, given an input signal, the problem of simulating a neuromorphic system reduces to a zero-finding problem on Hilbert space. This formalism is transformed into a fixed-point iteration problem, enabling the use of modern proximal-gradient methods of convex optimization that are known for their efficiency. This operator-theoretic framework resolves the scalability issue (through using first-order methods and restricting the search space) and offers an efficient variability analysis toolbox.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid 
+            loading="eager" 
+            path="assets/img/FN_OT.png" 
+            title="FitzHugh-Nagumo Simulation" 
+            class="img-fluid rounded z-depth-1" 
+        %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+A key promise of the proposed operator-theoretic framework is its ability to modulate the scale at which neuromorphic systems are modeled, simulated, and analyzed. By adjusting this scale, it is possible to transition from coarse mean-field estimates of the network to fine-grained and accurate simulations at the neuron level. In fact, this tunable resolution not only enables more flexible analysis but also bridges the micro- and macro-scale perspectives, offering a unified and principled understanding of complex neuromorphic dynamics. This unification results in the emergence of mean-field behaviors of spiking systems that stem from the dynamics of the individual neurons, and not their high-level abstractions, an essential link that is missing from the literature.
