@@ -1,81 +1,37 @@
 ---
 layout: page
-title: project 7
-description: with background image
-img: assets/img/4.jpg
+title: Simulation of Piecewise Linear Systems
+description: A Hybrid Symbolic-Numeric Computational tool was developed
+img: assets/img/Main_HSNC.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This paper presents a computational framework for analyzing mechanical systems that exhibit complex nonlinear behavior due to friction and intermittent contact, features common in real-world assemblies such as cracked structures, loose joints, and frictional interfaces. These systems are modeled using a class known as piecewise linear systems with discontinuous force elements (PWLDFE), capable of reproducing a rich variety of motions, including periodic, chaotic, and the rarely observed weakly chaotic dynamics. The proposed modeling formalism leverages the theory of differential inclusions to rigorously handle these discontinuities, offering both physical insight and mathematical generality.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+
+<div class="row justify-content-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid 
+            loading="eager" 
+            path="assets/img/HSNC_P1.png" 
+            title="HSNC in action" 
+            class="img-fluid rounded z-depth-1" 
+        %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+To make the analysis of such systems practical, we develop a hybrid symbolic-numeric computational (HSNC) method that significantly outperforms conventional numerical integration in both speed and accuracy. The method constructs exact analytical solutions between dynamical switches and efficiently detects those switches to piece together a complete system response. It is applicable to high-dimensional models without requiring model reduction and is particularly suited for cases where transient or non-steady dynamics are of interest. Demonstrations include not only conventional scenarios but also systems exhibiting weak chaos, where the divergence of trajectories is non-exponential—a subtle but important behavior in the study of nonlinear dynamics.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-{% raw %}
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
 
-{% endraw %}
+[1] Shahhosseini, A., Tien, M. H., & D'Souza, K. (2023). Efficient hybrid symbolic-numeric computational method for piecewise linear systems with Coulomb friction. Journal of Computational and Nonlinear Dynamics, 18(7), 071004.
+
+[2] Shahhosseini, A., & D’Souza, K. (2023, June). Abstract Dynamics: An Alternative Approach to Local Lyapunov Exponents in Examining Local Unpredictability. In International Conference on Nonlinear Dynamics and Applications (pp. 305-315). Cham: Springer Nature Switzerland.
+
+[3] Shahhosseini, A., Tien, M. H., & D’Souza, K. (2021, August). Analysis and Evaluation of Piecewise Linear Systems With Coulomb Friction Using a Hybrid Symbolic-Numeric Computational Method. In International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (Vol. 85468, p. V009T09A009). American Society of Mechanical Engineers.
