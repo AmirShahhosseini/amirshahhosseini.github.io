@@ -2,7 +2,7 @@
 layout: page
 title: Spiking Dynamical Systems
 description: An Operator-Theoretic Approach Toward Simulation and Analysis [Ongoing]
-img: assets/img/main_OT.png
+img: assets/img/Main_OT.png
 importance: 1
 category: work
 related_publications: true
@@ -26,3 +26,10 @@ In this new framework, the input-output behavior of neuromorphic systems is capt
 </div>
 
 A key promise of the proposed operator-theoretic framework is its ability to modulate the scale at which neuromorphic systems are modeled, simulated, and analyzed. By adjusting this scale, it is possible to transition from coarse mean-field estimates of the network to fine-grained and accurate simulations at the neuron level. In fact, this tunable resolution not only enables more flexible analysis but also bridges the micro- and macro-scale perspectives, offering a unified and principled understanding of complex neuromorphic dynamics. This unification results in the emergence of mean-field behaviors of spiking systems that stem from the dynamics of the individual neurons, and not their high-level abstractions, an essential link that is missing from the literature.
+
+
+[1] Shahhosseini, A., Chaffey, T., & Sepulchre, R. (2024, December). An operator-theoretic framework to simulate neuromorphic circuits. In 2024 IEEE 63rd Conference on Decision and Control (CDC) (pp. 6703-6708). IEEE.
+
+[2] Shahhosseini, A., Burger, T., & Sepulchre, R. (2024, December). Variable Metric Splitting Methods for Neuromorphic Circuits Simulation. Submitted to the 2025 IEEE 64th Conference on Decision and Control (CDC). IEEE.
+
+[3] Shahhosseini, A., Chaffey, T., & Sepulchre, R. Operator-Splitting Methods for Neuromorphic Circuit Simulation. Submitted to IEEE Transactions on Automatic Control
