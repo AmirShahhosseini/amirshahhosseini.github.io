@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-projects",
+  },{id: "nav-publications",
+          title: "Publications",
+          description: "Publications in reversed chronological order.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-projects",
           title: "Projects",
           description: "A list of projects I&#39;ve done throughout my academic career!",
           section: "Navigation",
