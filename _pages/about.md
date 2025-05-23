@@ -33,5 +33,5 @@ My research tackles the challenge of modeling and simulating <b>spiking neural n
 
 I'm broadly interested in <b>nonlinear dynamical systems</b>, <b>numerical methods and optimization</b>, <b>neuroscience</b>, and <b>complex systems</b>. My previous research projects include a numerical framework for the simulation and control of fractional-order dynamical systems (B.Sc. degree research project), a hybrid symbolic-numeric computational method for the simulation of piecewise linear nonlinear models, and a modern data-driven method for obtaining effective Poincaré sections for dynamical systems (M.Sc. degree research projects).
 
-Beyond academia, I'm interested in philosophy, finance, classical music, and traveling. 
+Beyond academia, I'm interested in philosophy, classical music, and traveling. 
 
